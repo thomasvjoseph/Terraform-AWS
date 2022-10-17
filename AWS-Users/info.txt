@@ -1,0 +1,2 @@
+this terraform congiguration is for creating AWS user with console login access.
+User Keybase, md64 to encrypt and decrypt
