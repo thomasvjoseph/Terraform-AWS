@@ -1,8 +1,8 @@
 variable "access_key" {
-  default = "AKIA24ARHYD5PJAEL3FB"
+  default = "<access_key from IAM user>"
 }
 variable "secret_key" {
-  default = "KI91SB7ER5KJTB39n21Fo3Ao+ZRmQ10FTvjbe161"
+  default = "<secret_key from IAM user>"
 }
 variable "region" {
   default = "ap-south-1"
