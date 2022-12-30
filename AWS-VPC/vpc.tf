@@ -30,6 +30,7 @@ resource "aws_route_table" "r-table" {
     cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.i-gw.id
   }
+  
   route{
     ipv6_cidr_block = "::/0"
     egress_only_gateway_id = aws_egress_only_internet_gateway.e-igw.id
